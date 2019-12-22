@@ -71,7 +71,7 @@ app.controller('loginctrl', function($scope,$location) {
 	$scope.login = function() {	
 		$scope.error="";	
 		if($scope.username=="amigobulls"&&$scope.password=="amigobulls"){
-			$location.path('/task.html')
+			$location.path('task.html')
 			console.log("success",$scope.username)
 		}
 		else{
